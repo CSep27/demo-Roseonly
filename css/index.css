@@ -1,0 +1,313 @@
+/*轮播图 B*/
+.slide-box {
+    overflow: hidden;
+    position: relative;
+    height: 450px;
+}
+
+.slide-box ul {
+    width: 7440px;
+    position: absolute;
+}
+
+.slide-box ul li {
+    float: left;
+}
+
+.arrow {
+    display: none;
+}
+
+.arrow a {
+    font-size: 42px;
+    font-family: "simsum";
+    width: 40px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 3px;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    margin-top: -40px;
+}
+
+.arrow-left {
+    left: 0;
+}
+
+.arrow-right {
+    right: 0;
+}
+
+.arrow a:hover {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.circle {
+    width: 125px;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    margin-left: -62px;
+    display: none;
+}
+
+.circle li {
+    float: left;
+    width: 20px;
+    height: 6px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 1px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.circle li.circle-cur{
+    background: rgba(255, 255, 255, 0.8);
+}
+
+/*轮播图 E*/
+
+/*分类 B*/
+.sort {
+    margin-top: 24px;
+    margin-bottom: 36px;
+}
+
+.sort-box {
+    overflow: hidden;
+}
+
+.sort-box ul {
+    width: 1260px;
+}
+
+.sort-box ul li {
+    float: left;
+    width: 280px;
+    height: 344px;
+    margin-right: 37px;
+    text-align: center;
+    position: relative;
+}
+
+.sort-box ul li.last {
+    margin-right: 0px;
+}
+
+.sort-box ul li span {
+    display: inline-block;
+    font-size: 18px;
+    width: 287px;
+    height: 48px;
+    line-height: 48px;
+    border: 1px solid #EFEFEF;
+    border-top: 0px;
+}
+.sort-box ul li div{
+    position: absolute;
+    width: 288px;
+    height: 280px;
+    background-color: #fff;
+    opacity: 0;
+    cursor: pointer;
+}
+/*分类 E*/
+
+/*热卖单品推荐 B*/
+.single {
+    margin-bottom: 20px;
+}
+
+.single-w {
+    width: 990px;
+    margin: 0 auto;
+}
+
+.single-w h2 {
+    font-size: 26px;
+    padding: 38px 0;
+    text-align: center;
+}
+
+.single-tab {
+    border: 1px solid #F0F0F0;
+    border-bottom: 1px solid #414141;
+    height: 48px;
+}
+
+.single-tab li {
+    float: left;
+    line-height: 48px;
+    font-size: 16px;
+    padding: 0 91px;
+    position: relative;
+    cursor: pointer;
+}
+
+.single-tab .single-tab-cur{
+    font-weight: bold;
+    border-left: 1px solid #414141;
+    border-right: 1px solid #414141;
+    border-top: 2px solid #414141;
+    background-color: #fff;
+    top:-1px;
+    width: 248px;
+    padding:0;
+    text-align: center;
+}
+
+.single-tab span {
+    position: absolute;
+    border-right: 1px solid #ccc;
+    height: 20px;
+    top: 14px;
+    right: -1px;
+    z-index: -1;
+}
+.single-box{
+    margin-top:1px;
+}
+.single-box ul {
+    height: 660px;
+    border: 1px solid #F0F0F0;
+    border-top: 0;
+    display: none;
+}
+
+.single-box .single-box-cur{
+    display: block;
+}
+
+.single-box ul li {
+    float: left;
+    width: 246px;
+    height: 330px;
+    border: 1px solid #F0F0F0;
+    border-top: 0;
+    margin-left: -1px;
+    margin-top: -1px;
+    text-align: center;
+}
+
+.single-box ul li:hover {
+    background-color: #ddd;
+}
+
+.single-box ul li img {
+    width: 220px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.single-box ul li p {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 26px;
+}
+
+.single-box ul li p.single-items-des {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+/*热卖单品推荐 E*/
+
+/*具体分类 B*/
+.specific {
+    margin-bottom: 40px;
+}
+
+.specific-head {
+    height: 60px;
+    line-height: 60px;
+
+}
+
+.specific-head h3 {
+    float: left;
+    font-size: 20px;
+}
+
+.specific-head a {
+    float: right;
+    font-size: 16px;
+}
+
+.specific-head a i {
+    display: inline-block;
+    width: 7px;
+    height: 10px;
+    background: url("../images/sprite.png") no-repeat -210px -40px;
+    margin-left: 8px;
+}
+
+.specific-pic {
+    height: 500px;
+}
+
+.specific-pic-left {
+    margin-right: 30px;
+    position: relative;
+    cursor: pointer;
+}
+.specific-pic-left div{
+    position: absolute;
+    width: 450px;
+    height: 500px;
+    background-color: #fff;
+    opacity: 0;
+}
+
+.specific-pic-right {
+    width: 760px;
+}
+
+.specific-pic-right li {
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+.specific-pic-right li div{
+    position: absolute;
+    width: 365px;
+    height: 235px;
+    background-color: #fff;
+    opacity: 0;
+}
+.specific-pic-right-first {
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.specific-pic-right-second {
+    margin-bottom: 30px;
+}
+
+.specific-pic-right-third {
+    margin-right: 30px;
+}
+
+/*具体分类 E*/
+
+/*分隔线 B*/
+.separate-line-one {
+    border-top: 2px solid #ddd;
+    margin-bottom: 4px;
+}
+
+.separate-line-two {
+    border-top: 1px solid #ddd;
+    margin-bottom: 40px;
+}
+
+/*分隔线 E*/
+
+/*专卖店 B*/
+/*专卖店 E*/
+
+
+
+/*轮播图 B*/
+/*轮播图 E*/
